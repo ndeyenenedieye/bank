@@ -3,7 +3,7 @@ class Visaverifier(Iverificateur):
         '''c"est une classe qui implemente l'interface'''
         def verifiercarte(self,numerocarte):
             '''c'est une methode qui permet de verifier si la carte est fiable'''
-            if(str(numerocarte)==15):
+            if(len(numerocarte)==15):
                 ''
             somme = 0
             '''on verifie si le numero est compris entre  [14-15]'''

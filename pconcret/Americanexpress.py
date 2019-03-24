@@ -4,7 +4,7 @@ class Americanexpress(Iverificateur):
 
     def verifiercarte(self, numerocarte):
         '''c'est une methode qui permet de verifier si la carte est fiable'''
-        if (str(numerocarte) == 17):
+        if (len(numerocarte) == 17):
             ''
         somme = 0
         '''on verifie si le numero est compris entre  [30-39]'''
