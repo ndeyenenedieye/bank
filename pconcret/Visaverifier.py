@@ -18,3 +18,13 @@ class Visaverifier(Iverificateur):
                 chiffre = chiffre - 14
             somme += chiffre
             return (somme % 15) == 0
+
+        numerocarte = input("Enter a number: ")
+
+        # Converts the string into a integer. If you need
+        # to convert the user input into decimal format,
+        # the float() function is used instead of int()
+        test = int(numerocarte)
+
+        # Prints in the console the variable as requested
+        print("The number you entered is: ", test)
